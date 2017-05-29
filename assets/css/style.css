@@ -1,0 +1,43 @@
+*{
+	font-family: 'Shadows Into Light', cursive;
+	text-align: center;
+}
+
+.slider-container{
+	margin: 0 auto;
+	width: 500px;
+}
+
+.slider-list {
+	position: relative;
+}
+
+.slider-list>li {
+	list-style: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+li.in-slide {
+	display: block;
+}
+
+.slide-circles {
+	position: absolute;
+	margin-top: 300px;
+	padding-left: 0;
+	width: 500px;
+}
+
+.slide-circles>li {
+	background: grey;
+	-webkit-border-radius: 50%;
+	-moz-border-radius:50%;
+	border-radius: 50%;
+	display: inline-block;
+	height: 12px;
+	width: 12px;
+	margin: 0 4px;
+}
