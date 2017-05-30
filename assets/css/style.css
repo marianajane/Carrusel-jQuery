@@ -17,12 +17,8 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	display: none;
 }
 
-li.in-slide {
-	display: block;
-}
 
 .slide-circles {
 	position: absolute;
